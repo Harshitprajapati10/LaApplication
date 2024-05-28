@@ -1,0 +1,122 @@
+body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.footer {
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 10px 6px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.navbar {
+   
+    background: #000000;
+    padding: 20px;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    position: relative;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar p {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.navbar:hover {
+    background: #1b9d26;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar p {
+        padding: 10px;
+        font-size: 22px;
+    }
+}
+
+.slider-container {
+    margin: 11px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+#prev { left: 0; }
+#next { right: 0; }
+
+#prev:hover, #next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.imageset{
+    width: 25px;
+}
+
+.app-download{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.app-download img{
+    height: 60px;
+    width: 60px;
+}
+#java12{
+    text-decoration: none; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  background-color: red; 
+  transition: background-color 0.2s ease-in-out;
+}
+
+a:hover {
+    background-color: #900;
+  }
